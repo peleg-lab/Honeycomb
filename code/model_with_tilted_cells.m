@@ -3,8 +3,10 @@ close all
 set(0,'DefaultAxesFontSize',18,'DefaultAxesFontName','CMR10')
 
 % Specify the path to save data
-path_to_save = '/Users/golnargharoonifard/Desktop/Bees/HoneyCombProject/code';
-
+path_to_save = '../model_outputs'
+if ~exist(path_to_save, 'dir')
+	mkdir(path_to_save);
+end
 %% Parameters to change
 
 Lx_vector =[2 3 4];
