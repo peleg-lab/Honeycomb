@@ -10,8 +10,7 @@ first-neighbor interactions according to a Delaunay triangulation.
 
 ## Data
 
-The repo also consists of imgae crops of comb built on our 3D-printed frames under various  geometric frustrations. 
+The repo also consists of image crops of honeycomb built on our 3D-printed frames under various geometric frustrations. 
 Along with the csv files that contain the coordinates of the centroids of the cells that are automatically detected on 
 every image crop.
-
 
